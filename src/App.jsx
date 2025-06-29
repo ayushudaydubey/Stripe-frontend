@@ -18,7 +18,7 @@ const App = () => {
           <ProductCard product={product} />
       
       } />
-      <Route path="/success" element={<Success product={product} />} />
+      <Route path="/success" element={<Success />} />
       <Route path="/cancel" element={<Cancel />} />
     </Routes>
   );
