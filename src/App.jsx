@@ -20,6 +20,8 @@ const App = () => {
       } />
       <Route path="/success" element={<Success />} />
       <Route path="/cancel" element={<Cancel />} />
+      <Route path="*" element={<NotFound />} />
+
     </Routes>
   );
 };
